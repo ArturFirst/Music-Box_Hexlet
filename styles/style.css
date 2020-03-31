@@ -1,0 +1,1020 @@
+/*=====  Basic  =====*/
+html {
+  font-size: 10px;
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #FFF;
+  background-color: #08020D;
+  position: relative; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  font-weight: 700; }
+
+h1, h2 {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 6rem; }
+
+h2 {
+  font-size: 3.8rem; }
+
+h3 {
+  font-size: 1.8rem; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  max-width: 124rem;
+  box-sizing: border-box;
+  padding: 0 2rem;
+  margin: 0 auto; }
+
+.d-inline-block {
+  display: inline-block; }
+
+.d-flex {
+  display: flex; }
+
+.flex-column {
+  flex-direction: column; }
+
+.flex-start {
+  justify-content: flex-start; }
+
+.flex-end {
+  justify-content: flex-end; }
+
+.flex-space-btw {
+  justify-content: space-between; }
+
+.flex-center {
+  justify-content: center; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
+.ai-center {
+  align-items: center; }
+
+.w-25 {
+  width: 25%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-100 {
+  width: 100%; }
+
+.mb-25 {
+  margin-bottom: 2.5rem; }
+
+.mb-50 {
+  margin-bottom: 5rem; }
+
+.mb-100 {
+  margin-bottom: 10rem; }
+
+.mt-25 {
+  margin-top: 2.5rem; }
+
+.mt-50 {
+  margin-top: 5rem; }
+
+.mt-100 {
+  margin-top: 10rem; }
+
+.mr-20 {
+  margin-right: 2rem; }
+
+/*===== Button styles =====*/
+.btn {
+  padding: 0;
+  outline: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  background: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .btn:focus, .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px #FFF;
+    transition: box-shadow .2s ease; }
+
+.btn-outline-white {
+  color: #FFF;
+  background-color: transparent;
+  border-color: #FFF; }
+
+.btn-outline-grey {
+  color: #8C8C8C;
+  background-color: transparent;
+  border-color: #E9E9E9; }
+
+.btn-orange {
+  color: #FFF;
+  background-color: #95390C;
+  border-color: #95390C; }
+
+.btn-purple {
+  color: #FFF;
+  background-color: #5328A1;
+  border-color: #5328A1; }
+
+.btn-green {
+  color: #FFF;
+  background-color: #34C176;
+  border-color: #34C176; }
+
+.btn-pink {
+  color: #FFF;
+  background-color: #FF4157;
+  border-color: #FF4157; }
+
+/*===== Text styles =====*/
+.ta-center {
+  text-align: center; }
+
+.ta-left {
+  text-align: left; }
+
+.tt-upper {
+  text-transform: uppercase; }
+
+.td-none {
+  text-decoration: none; }
+
+.fw-light {
+  font-weight: 300; }
+
+.fw-bold {
+  font-weight: 700; }
+
+.fz-7 {
+  font-size: .7rem; }
+
+.fz-11 {
+  font-size: 1.1rem; }
+
+.fz-12 {
+  font-size: 1.2rem; }
+
+.fz-14 {
+  font-size: 1.4rem; }
+
+.fz-16 {
+  font-size: 1.6rem; }
+
+.fz-18 {
+  font-size: 1.8rem; }
+
+.fz-20 {
+  font-size: 2rem; }
+
+.fz-22 {
+  font-size: 2.2rem; }
+
+.fz-24 {
+  font-size: 2.4rem; }
+
+.fz-30 {
+  font-size: 3rem; }
+
+.fz-38 {
+  font-size: 3.8rem; }
+
+.fz-60 {
+  font-size: 6rem; }
+
+/*=====  Header  =====*/
+.header {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 100%; }
+
+.header-left {
+  margin-right: 11.2rem; }
+
+.header-image {
+  height: 2rem; }
+
+.header-nav {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.header-link {
+  margin-left: 3rem;
+  color: #808080;
+  text-decoration: none; }
+  .header-link.header-title {
+    margin-left: .5rem;
+    color: #FFF; }
+  .header-link.active {
+    color: #FFF; }
+  .header-link:first-child {
+    margin-left: 0; }
+  .header-link:hover {
+    color: #FFF;
+    transition: color .2s ease; }
+
+.header-right {
+  margin-left: auto; }
+
+.header-search {
+  width: 28rem;
+  margin-left: auto;
+  margin-right: 0; }
+  .header-search input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3rem;
+    padding-left: 1.4rem;
+    border-radius: 3rem;
+    border: none;
+    outline: none; }
+    .header-search input:focus {
+      padding-left: 1.4rem;
+      font-size: 1.2rem; }
+      .header-search input:focus::placeholder {
+        color: transparent; }
+  .header-search .search-dark {
+    background: #3C3B3D;
+    color: gray; }
+    .header-search .search-dark:focus {
+      color: gray; }
+  .header-search .search-light {
+    background: #FFF;
+    color: #3c3b3d; }
+    .header-search .search-light:focus {
+      color: #3c3b3d; }
+
+/*=====  Intro  =====*/
+.intro.index {
+  padding-top: 27.2rem;
+  padding-bottom: 25.4rem;
+  background: url(../images/banner.png) center 75% no-repeat;
+  background-size: cover; }
+  .intro.index h1 {
+    margin-bottom: 1rem; }
+  .intro.index h2 {
+    font-size: 3rem;
+    margin-bottom: 4.5rem; }
+  .intro.index h3 {
+    margin-bottom: 4rem; }
+.intro.catalog {
+  padding-top: 28rem;
+  padding-bottom: 8.2rem;
+  background: url(../images/Morten%20Harket.png) center 75% no-repeat;
+  background-size: cover; }
+
+/*=====  Index / Intro =====*/
+.form-item {
+  margin-bottom: 3rem; }
+  .form-item input {
+    box-sizing: border-box;
+    width: 27rem;
+    height: 5rem;
+    padding-left: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: .2rem;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white; }
+    .form-item input:first-child {
+      margin-right: 3rem; }
+    .form-item input::placeholder {
+      color: white; }
+    .form-item input:focus {
+      border: 1px solid rgba(255, 255, 255, 0.75); }
+      .form-item input:focus::placeholder {
+        color: transparent; }
+
+.intro-form {
+  margin: 0 auto; }
+
+.btn-green {
+  width: 100%;
+  height: 5rem; }
+
+/*=====  Catalog / Intro =====*/
+.intro-artist {
+  flex-wrap: wrap; }
+  .intro-artist .artist-name {
+    margin-bottom: 2.5rem;
+    line-height: 1; }
+  .intro-artist .artist-fans {
+    margin-bottom: 4rem;
+    line-height: 1; }
+
+.btn-purple, .btn-orange {
+  position: relative;
+  width: 20rem;
+  height: 5rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: left; }
+  .btn-purple img, .btn-orange img {
+    position: absolute;
+    top: 1.4rem;
+    left: 2rem;
+    height: 2rem;
+    filter: invert(1); }
+  .btn-purple span, .btn-orange span {
+    margin-left: 5.5rem; }
+
+/*=====  Main Index =====*/
+.main.index {
+  padding-top: 10rem; }
+
+/*=====  Subscriptions  =====*/
+.subscriptions {
+  margin: 0 auto 5rem; }
+
+.subscription-item {
+  justify-content: space-between;
+  flex-direction: column;
+  width: 35rem;
+  height: 58rem;
+  background-size: cover;
+  border-radius: 1rem; }
+  .subscription-item:hover {
+    box-shadow: 0 0 2px #3C3B3D; }
+
+.subscription-free {
+  background: url(../images/subscribe_1.png) center 100% no-repeat; }
+
+.subscription-standart {
+  background: url(../images/subscribe_2.png) center 100% no-repeat; }
+
+.subscription-premium {
+  background: url(../images/subscribe_3.png) center 100% no-repeat; }
+
+.subscription-price {
+  margin-bottom: 4rem; }
+  .subscription-price span {
+    line-height: 1; }
+    .subscription-price span:last-child {
+      margin-left: 1rem;
+      line-height: 1.5; }
+
+.btn-outline-white {
+  width: 30rem;
+  height: 7rem;
+  border-width: .4rem;
+  border-radius: .4rem;
+  font-size: 2.4rem;
+  font-weight: 300; }
+
+.subscription-info p {
+  margin: 0 2rem; }
+
+/*=====  News  =====*/
+.news-item {
+  margin-bottom: 7rem; }
+  .news-item:last-child {
+    margin-bottom: 0; }
+
+.news-block .news-photo {
+  width: 100%; }
+.news-block h2 {
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: capitalize; }
+.news-block:nth-child(odd) {
+  margin-right: 3rem; }
+.news-block:nth-child(even) {
+  margin-left: 3rem; }
+
+.news-content {
+  margin-bottom: 1.6rem;
+  line-height: 2;
+  color: #8C8C8C; }
+
+.news-author {
+  margin-bottom: 4.5rem; }
+  .news-author .photo {
+    margin-right: 2rem;
+    border-radius: 50%;
+    border: 1px solid #FFF; }
+  .news-author .author {
+    color: #F89202;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    border-right: 1px solid #FFF; }
+  .news-author .date {
+    color: #555555; }
+
+.btn-outline-grey {
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.2rem; }
+
+/*=====  Content  =====*/
+.content-block {
+  line-height: 1.5;
+  color: #999999; }
+  .content-block > img {
+    margin: 0 auto; }
+  .content-block:nth-child(odd) {
+    margin-right: 3rem; }
+  .content-block:nth-child(even) {
+    margin-left: 3rem; }
+
+.btn-pink {
+  width: 17.5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  text-transform: capitalize;
+  font-weight: 300; }
+
+/*=====  Main Catalog =====*/
+.main.catalog {
+  padding-top: 10rem; }
+
+.main-block {
+  margin-right: -2.5rem;
+  margin-left: -2.5rem; }
+
+/*=====  Popular  =====*/
+.popular-track {
+  flex: 0 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem; }
+  .popular-track:nth-child(-n+4) {
+    margin-bottom: 2.5rem; }
+  .popular-track .track-cover {
+    margin-right: 1.5rem; }
+    .popular-track .track-cover img {
+      width: 5rem;
+      height: 5rem; }
+  .popular-track .track-info {
+    margin: auto 0; }
+  .popular-track .track-name {
+    margin-bottom: .5rem;
+    font-size: 1.4rem; }
+  .popular-track .track-artist {
+    color: #808080;
+    font-size: 1.2rem; }
+  .popular-track .track-length {
+    margin: auto 0;
+    margin-right: 1.8rem;
+    font-size: 1.4rem;
+    color: #8C8C8C; }
+
+/*=====  Didcography  =====*/
+.discography-album {
+  flex: 0 0 25%;
+  max-width: 25%;
+  box-sizing: border-box;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem; }
+  .discography-album:nth-child(-n+4) {
+    margin-bottom: 5rem; }
+  .discography-album .album-cover {
+    position: relative;
+    margin-bottom: 1rem; }
+    .discography-album .album-cover img:first-child {
+      width: 25rem;
+      height: 25rem; }
+    .discography-album .album-cover img:last-child {
+      position: absolute;
+      left: 1.5rem;
+      bottom: 1rem;
+      height: 2.5rem;
+      filter: invert(1); }
+  .discography-album .album-name {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700; }
+  .discography-album .album-year {
+    font-size: 1.6rem; }
+
+/*=====  Similar  =====*/
+.similar-artist {
+  flex: 0 0 25%;
+  max-width: 25%;
+  box-sizing: border-box;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem; }
+  .similar-artist:nth-child(-n+4) {
+    margin-bottom: 5rem; }
+  .similar-artist .artist-photo {
+    margin-bottom: 1.5rem; }
+    .similar-artist .artist-photo img {
+      width: 25rem;
+      height: 25rem; }
+  .similar-artist .artist-name {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700; }
+  .similar-artist .artist-fans {
+    margin-bottom: 0;
+    font-size: 1.6rem; }
+
+/*=====  Footer  =====*/
+.footer {
+  background: linear-gradient(90deg, #5328A1, #95390C);
+  color: #CACACA; }
+
+.footer-inner:first-child {
+  border-bottom: 1px solid #EEEEEE; }
+
+.footer-info {
+  padding-top: 8rem;
+  padding-bottom: 10rem; }
+
+.footer-info-item {
+  width: 25%; }
+
+.footer-info-title {
+  margin-bottom: 3rem; }
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.footer-list-item {
+  margin-bottom: 2rem; }
+  .footer-list-item:last-child {
+    margin-bottom: 0; }
+
+.footer-list-link {
+  color: #CACACA; }
+  .footer-list-link:hover {
+    color: #FFF;
+    transition: color .2s ease; }
+
+.footer-social .footer-list-link {
+  margin-right: 2rem;
+  vertical-align: middle; }
+  .footer-social .footer-list-link:last-child {
+    margin-right: 0; }
+
+.footer-links {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  .footer-links .footer-list-link {
+    margin: 0;
+    margin-right: 4rem; }
+    .footer-links .footer-list-link:last-child {
+      margin-right: 0; }
+
+@media (max-width: 1280px) {
+  /*=====  Header  =====*/
+  .header-nav {
+    margin-right: 0; }
+
+  /*=====  Index / Subscriptions  =====*/
+  .subscription-item {
+    width: 30%; }
+
+  .btn-outline-white {
+    width: 87.5%; }
+
+  /*=====  Catalog / Discography =====*/
+  .discography-album .album-cover img:first-child {
+    width: 100%;
+    height: 100%; }
+
+  /*=====  Catalog / Similar =====*/
+  .similar-artist .artist-photo img {
+    width: 100%;
+    height: 100%; } }
+@media (max-width: 1024px) {
+  /*=====  Header  =====*/
+  .header-left {
+    margin-right: 5rem; }
+
+  .header-link {
+    margin-left: 1.5rem; }
+
+  /*=====  Index / Intro  =====*/
+  .intro.index h1 {
+    font-size: 5rem; }
+  .intro.index h2 {
+    font-size: 2.5rem; }
+
+  /*=====  Index / Subscriptions  =====*/
+  .subscription-item {
+    height: 46.5rem; }
+
+  .subscription-type {
+    margin-top: 2rem; }
+
+  .subscriptions-info {
+    font-size: 2rem; }
+
+  .btn-outline-white {
+    font-size: 2rem; }
+
+  /*=====  Index / News  =====*/
+  .news-item {
+    margin-bottom: 5rem; }
+
+  .news-block h2 {
+    margin-bottom: 1.5rem;
+    font-size: 3rem; }
+  .news-block .news-content {
+    font-size: 1.4rem; }
+  .news-block .news-author {
+    margin-bottom: 2.5rem; }
+  .news-block:nth-child(odd) {
+    margin-right: 2rem; }
+  .news-block:nth-child(even) {
+    margin-left: 2rem; }
+
+  /*=====  Index / Content  =====*/
+  .-block {
+    font-size: 1.5rem; }
+    .-block:nth-child(odd) {
+      margin-right: 2rem; }
+    .-block:nth-child(even) {
+      margin-left: 2rem; }
+
+  /*=====  Catalog / Discography =====*/
+  .discography-album {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+    .discography-album:nth-child(-n+4) {
+      margin-bottom: 0; }
+    .discography-album:nth-child(-n+3) {
+      margin-bottom: 5rem; }
+
+  /*=====  Catalog / Similar =====*/
+  .similar-artist {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+    .similar-artist:nth-child(-n+4) {
+      margin-bottom: 0; }
+    .similar-artist:nth-child(-n+6) {
+      margin-bottom: 5rem; }
+
+  /*=====  Footer  =====*/
+  .footer-info {
+    justify-content: space-around; }
+
+  .footer-info-item {
+    width: 33%; }
+    .footer-info-item:nth-child(-n+3) {
+      margin-bottom: 4rem; }
+    .footer-info-item:last-child {
+      text-align: center; }
+
+  .footer-list-item {
+    margin-bottom: 1.5rem; }
+    .footer-list-item:last-child {
+      margin-bottom: 0; } }
+@media (max-width: 768px) {
+  /*=====  Header  =====*/
+  .header-inner {
+    flex-wrap: wrap; }
+
+  .header-left {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 2rem; }
+
+  .header-middle {
+    order: 2;
+    width: 100%; }
+
+  .header-right {
+    width: 100%;
+    margin-bottom: 2rem; }
+    .header-right .header-search {
+      margin-left: 0; }
+
+  .header-nav {
+    width: 100%;
+    flex-wrap: wrap; }
+
+  .header-link {
+    width: 100%;
+    margin: 0 0 1rem; }
+    .header-link.header-title {
+      margin-bottom: 0; }
+
+  /*=====  Index =====*/
+  .main.index .container .main-item > h2 {
+    margin-bottom: 5rem;
+    font-size: 3rem; }
+
+  /*=====  Index / Intro  =====*/
+  .intro.index {
+    padding-bottom: 15rem; }
+    .intro.index h1 {
+      font-size: 4.2rem; }
+    .intro.index h2 {
+      margin-bottom: 4.5rem;
+      font-size: 2.2rem; }
+    .intro.index h3 {
+      margin-bottom: 4rem;
+      font-size: 1.6rem; }
+
+  .intro-form {
+    width: 100%;
+    justify-content: center; }
+
+  .form-item {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0; }
+    .form-item input {
+      width: 100%;
+      margin-bottom: 3rem; }
+      .form-item input:first-child {
+        margin-right: 0; }
+
+  /*=====  Index / Subscriptions  =====*/
+  .subscriptions {
+    flex-direction: column;
+    justify-content: center;
+    width: 28rem; }
+
+  .subscription-item {
+    width: 28rem;
+    height: 46rem;
+    margin-bottom: 5rem; }
+    .subscription-item:last-child {
+      margin-bottom: 0; }
+
+  .subscription-bottom {
+    margin-bottom: 1.5rem; }
+
+  .subscriptions-info {
+    font-size: 1.8rem; }
+
+  .btn-outline-white {
+    width: 24rem;
+    margin-bottom: 4rem; }
+
+  /*=====  Index / News  =====*/
+  .news-item {
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .news-block {
+    width: 100%;
+    text-align: center; }
+    .news-block .news-photo {
+      margin: 0 auto 2rem; }
+    .news-block h2 {
+      margin-bottom: 2.5rem; }
+    .news-block:nth-child(odd) {
+      margin-right: 0; }
+    .news-block:nth-child(even) {
+      margin-left: 0; }
+
+  .news-item:nth-child(even) .news-block:nth-child(odd) {
+    order: 2; }
+
+  .news-content {
+    margin-bottom: 2.5rem;
+    line-height: 2.2; }
+
+  .news-author {
+    margin-bottom: 2.5rem;
+    justify-content: center; }
+    .news-author .author {
+      padding-right: 4rem;
+      margin-right: 4rem; }
+
+  .btn-outline-grey {
+    width: 28rem; }
+
+  /*=====  Index / Content  =====*/
+  .content {
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .content-block {
+    width: 100%;
+    text-align: center; }
+    .content-block img {
+      margin-bottom: 2.5rem; }
+    .content-block:nth-child(odd) {
+      margin-right: 0;
+      order: 2; }
+    .content-block:nth-child(even) {
+      margin-left: 0; }
+
+  .btn-pink {
+    width: 28rem; }
+
+  /*=====  Catalog =====*/
+  .main.catalog .container .main-item > h2 {
+    font-size: 3.4rem; }
+
+  /*=====  Catalog / Intro =====*/
+  .intro.catalog {
+    background-position: 75%;
+    background-size: auto 100%;
+    padding-top: 29.5rem;
+    padding-bottom: 10rem; }
+
+  .intro-artist {
+    margin-top: 0; }
+    .intro-artist .artist-name {
+      margin-bottom: 2.5rem;
+      font-size: 4.8rem; }
+    .intro-artist .artist-fans {
+      font-size: 1.6rem;
+      margin-bottom: 4rem; }
+
+  /*=====  Catalog / Popular =====*/
+  .popular-track {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 2.5rem; }
+    .popular-track:last-child {
+      margin-bottom: 0; }
+    .popular-track .track-length {
+      margin-right: 0; }
+
+  /*=====  Catalog / Discography =====*/
+  .discography-album {
+    flex: 0 0 50%;
+    max-width: 50%; }
+    .discography-album:nth-child(-n+3) {
+      margin-bottom: 0; }
+    .discography-album:nth-child(-n+4) {
+      margin-bottom: 5rem; }
+    .discography-album .album-name {
+      font-size: 1.8rem; }
+    .discography-album .album-year {
+      font-size: 1.5rem; }
+
+  /*=====  Catalog / Similar =====*/
+  .similar-artist {
+    flex: 0 0 50%;
+    max-width: 50%; }
+    .similar-artist:nth-child(-n+6) {
+      margin-bottom: 5rem; }
+    .similar-artist .artist-name {
+      font-size: 1.8rem; }
+    .similar-artist .artist-fans {
+      font-size: 1.4rem; }
+
+  /*=====  Footer  =====*/
+  .footer-info {
+    justify-content: space-between; }
+
+  .footer-info-item {
+    width: 50%; }
+    .footer-info-item:last-child {
+      margin-top: 0;
+      text-align: left; }
+    .footer-info-item:nth-child(-n+3) {
+      margin-bottom: 0; }
+    .footer-info-item:nth-child(-n+2) {
+      margin-bottom: 4rem; }
+
+  .footer-list-item {
+    margin-bottom: 2rem; }
+    .footer-list-item:last-child {
+      margin-bottom: 0; } }
+@media (max-width: 565px) {
+  /*=====  Index + Catalog =====*/
+  .main.index .container .main-item > h2, .main.catalog .container .main-item > h2 {
+    font-size: 2.5rem; }
+
+  /*=====  Index / Intro  =====*/
+  .intro.index {
+    padding-top: 26.4rem;
+    padding-bottom: 5rem; }
+    .intro.index h1 {
+      font-size: 3.6rem; }
+    .intro.index h2 {
+      font-size: 1.8rem; }
+    .intro.index h3 {
+      font-size: 1.4rem; }
+
+  /*=====  Index / News  =====*/
+  .news-block h2 {
+    text-align: left; }
+
+  .news-content {
+    text-align: left; }
+
+  /*=====  Index / Subscriptions  =====*/
+  .subscriptions-info {
+    font-size: 1.6rem; }
+
+  /*=====  Catalog =====*/
+  .main-block {
+    margin-right: -1rem;
+    margin-left: -1rem; }
+
+  /*=====  Catalog / Intro =====*/
+  .intro-artist .artist-name {
+    font-size: 3rem; }
+  .intro-artist .artist-fans {
+    font-size: 1.4rem; }
+  .intro-artist .btn-purple, .intro-artist .btn-orange {
+    width: 28rem;
+    margin-right: 0; }
+  .intro-artist .btn-purple {
+    margin-bottom: 2.5rem; }
+  .intro-artist .btn-orange {
+    margin-bottom: 0; }
+
+  /*=====  Catalog / Popular =====*/
+  .popular-track {
+    padding-right: 1rem;
+    padding-left: 1rem; }
+
+  /*=====  Catalog / Discography =====*/
+  .discography-album {
+    padding-right: 1rem;
+    padding-left: 1rem; }
+    .discography-album .album-cover img:last-child {
+      left: .5rem;
+      bottom: .5rem;
+      height: 1.5rem; }
+    .discography-album .album-name {
+      font-size: 1.6rem;
+      margin-bottom: .5rem; }
+    .discography-album .album-year {
+      font-size: 1.4rem; }
+
+  /*=====  Catalog / Similar =====*/
+  .similar-artist {
+    padding-right: 1rem;
+    padding-left: 1rem; }
+    .similar-artist .artist-name {
+      font-size: 1.6rem; }
+    .similar-artist .artist-fans {
+      font-size: 1.2rem; }
+
+  /*=====  Footer  =====*/
+  .footer-info-item {
+    width: 100%;
+    text-align: left; }
+    .footer-info-item:nth-child(-n+3) {
+      margin-bottom: 4rem; }
+    .footer-info-item:last-child {
+      margin-bottom: 0; }
+
+  .footer-links {
+    flex-wrap: wrap; }
+    .footer-links .footer-list-link {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 2rem;
+      text-align: left; }
+      .footer-links .footer-list-link:last-child {
+        margin-bottom: 0; } }
+@media (max-width: 425px) {
+  /*=====  Index + Catalog =====*/
+  .main.index .container .main-item > h2, .main.catalog .container .main-item > h2 {
+    font-size: 2rem; }
+
+  /*=====  Index / Intro  =====*/
+  .intro.index h1 {
+    font-size: 3rem; }
+  .intro.index h3 {
+    font-size: 1.2rem; }
+
+  /*=====  Index / Subscriptions  =====*/
+  .subscriptions-info {
+    font-size: 1.4rem; }
+
+  /*=====  Index / Content  =====*/
+  .content-block img {
+    width: 100%; } }
+@media (max-width: 320px) {
+  /*=====  Index / Subscriptions  =====*/
+  .subscriptions-info {
+    font-size: 1.2rem; }
+
+  /*=====  Catalog / Discography =====*/
+  .artist-data {
+    width: 13rem; }
+
+  /*=====  Catalog / Similar =====*/
+  .album-data {
+    width: 13rem; } }
+
+/*# sourceMappingURL=style.css.map */

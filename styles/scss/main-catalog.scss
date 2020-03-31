@@ -1,0 +1,132 @@
+@import "variables";
+
+
+/*=====  Main Catalog =====*/
+
+.main.catalog {
+    padding-top: 10rem;
+}
+
+.main-block {
+    margin-right: -2.5rem;
+    margin-left: -2.5rem;
+}
+
+/*=====  Popular  =====*/
+
+.popular-track {
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+
+    &:nth-child(-n+4) {
+        margin-bottom: 2.5rem;
+    }
+
+    .track-cover{
+        margin-right: 1.5rem;
+
+        img {
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+
+    .track-info {
+        margin: auto 0;
+    }
+
+    .track-name {
+        margin-bottom: .5rem;
+        font-size: 1.4rem;
+    }
+
+    .track-artist {
+        color: $grey;
+        font-size: 1.2rem;
+    }
+
+    .track-length {
+        margin: auto 0;
+        margin-right: 1.8rem;
+        font-size: 1.4rem;
+        color: #8C8C8C;
+    }
+}
+
+/*=====  Didcography  =====*/
+
+.discography-album {
+    flex: 0 0 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+
+    &:nth-child(-n+4) {
+        margin-bottom: 5rem;
+    }
+
+    .album-cover {
+        position: relative;
+        margin-bottom: 1rem;
+        img:first-child {
+            width: 25rem;
+            height: 25rem;
+        }
+
+        img:last-child {
+            position: absolute;
+            left: 1.5rem;
+            bottom: 1rem;
+            height: 2.5rem;
+            filter: invert(1);
+        }
+    }
+
+    .album-name {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .album-year {
+        font-size: 1.6rem;
+    }
+}
+
+
+/*=====  Similar  =====*/
+
+.similar-artist {
+    flex: 0 0 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+
+    &:nth-child(-n+4) {
+        margin-bottom: 5rem;
+    }
+
+    .artist-photo {
+        margin-bottom: 1.5rem;
+        img {
+            width: 25rem;
+            height: 25rem;
+        }
+    }
+
+    .artist-name {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .artist-fans {
+        margin-bottom: 0;
+        font-size: 1.6rem;
+    }
+}

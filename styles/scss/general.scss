@@ -1,0 +1,265 @@
+/*=====  Basic  =====*/
+
+html {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $default-font;
+    color: $white;
+    background-color: $black;
+    position: relative;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 124rem;
+    box-sizing: border-box;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-space-btw {
+    justify-content: space-between;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-25 {
+    margin-bottom: 2.5rem;
+}
+
+.mb-50 {
+    margin-bottom: 5rem;
+}
+
+.mb-100 {
+    margin-bottom: 10rem;
+}
+
+.mt-25 {
+    margin-top: 2.5rem;
+}
+
+.mt-50 {
+    margin-top: 5rem;
+}
+
+.mt-100 {
+    margin-top: 10rem;
+}
+
+.mr-20 {
+    margin-right: 2rem;
+}
+
+
+/*===== Button styles =====*/
+
+.btn {
+    padding: 0;
+    outline: none;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+
+    background: 0;
+
+    font-family: $default-font;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &:focus, &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 2px $white;
+        transition: box-shadow .2s ease;
+    }
+}
+
+.btn-outline-white {
+    color: $white;
+    background-color: transparent;
+    border-color: $white;
+}
+
+.btn-outline-grey {
+    color: #8C8C8C;
+    background-color: transparent;
+    border-color: #E9E9E9;
+}
+
+.btn-orange {
+    color: $white;
+    background-color: $orange;
+    border-color: $orange;
+}
+
+.btn-purple {
+    color: $white;
+    background-color: $purple;
+    border-color: $purple;
+}
+
+.btn-green {
+    color: $white;
+    background-color: $green;
+    border-color: $green;
+}
+
+.btn-pink {
+    color: $white;
+    background-color: $pink;
+    border-color: $pink;
+}
+
+
+/*===== Text styles =====*/
+
+.ta-center {
+    text-align: center;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+.tt-upper {
+    text-transform: uppercase;
+}
+
+.td-none {
+    text-decoration: none;
+}
+
+.fw-light {
+    font-weight: 300;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.fz-7 {
+    font-size: .7rem;
+}
+
+.fz-11 {
+    font-size: 1.1rem;
+}
+
+.fz-12 {
+    font-size: 1.2rem;
+}
+
+.fz-14 {
+    font-size: 1.4rem;
+}
+
+.fz-16 {
+    font-size: 1.6rem;
+}
+
+.fz-18 {
+    font-size: 1.8rem;
+}
+
+.fz-20 {
+    font-size: 2rem;
+}
+
+.fz-22 {
+    font-size: 2.2rem;
+}
+
+.fz-24 {
+    font-size: 2.4rem;
+}
+
+.fz-30 {
+    font-size: 3rem;
+}
+
+.fz-38 {
+    font-size: 3.8rem;
+}
+
+.fz-60 {
+    font-size: 6rem;
+}
