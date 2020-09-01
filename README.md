@@ -4,4 +4,4 @@
 Landing page for music portal "Music Box".
 
 ## Link
-[sitecreation.info](http://sitecreation.info/)
+[best-project.xyz](http://best-project.xyz/)
